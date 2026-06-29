@@ -1,18 +1,18 @@
 # Stage 0: Foundation
 
-## Goal
+## 目标
 
-Build a minimal foundation that can be cloned, checked, and extended on local Linux, GPU server, and Aliyun.
+建立一个最小基础仓库，使它可以在本地 Linux、GPU 服务器和阿里云上克隆、检查和继续扩展。
 
-## Required Outputs
+## 必需产出
 
-- Repository folders for docs, environment templates, configs, scripts, harness, experiments, and knowledge.
-- Environment check script.
-- Minimal harness case and runner.
-- Experiment template.
-- Tests for the harness runner and environment check script.
+- 用于 docs、环境模板、配置、脚本、harness、实验和知识库的仓库目录。
+- 环境检查脚本。
+- 最小 harness case 和 runner。
+- 实验模板。
+- harness runner 和环境检查脚本的测试。
 
-## Acceptance Checks
+## 验收检查
 
 ```bash
 bash scripts/check/check_environment.sh
@@ -22,11 +22,11 @@ python3 harness/runners/run_echo.py \
   --report harness/reports/minimal_echo_report.md
 ```
 
-Passing Stage 0 means these commands work on at least one Linux machine and the machine notes explain what must be checked on the next machine.
+Stage 0 通过的含义是：这些命令至少能在一台 Linux 机器上运行成功，并且机器说明记录了迁移到下一台机器时需要检查的内容。
 
-## Completion Log
+## 完成记录
 
-Record after implementation:
+实施后记录：
 
 ```text
 Date: 2026-06-29
@@ -35,5 +35,5 @@ Machine: zoukai-Default-string
 Environment check: PASS - bash scripts/check/check_environment.sh
 Unit tests: PASS - python3 -m unittest discover -s tests -v, 4 tests
 Minimal harness: PASS - cases=2 failed=0
-Notes: Secret scan and placeholder scan returned no matches.
+Notes: Secret scan and unfinished-marker scan returned no matches.
 ```
