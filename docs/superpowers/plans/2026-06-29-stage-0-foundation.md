@@ -1,6 +1,6 @@
 # Stage 0 Foundation Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan one task at a time. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Build the minimal, testable Stage 0 foundation for `ai-agent-lab`: repository structure, environment notes, experiment template, a tiny harness, and validation tests.
 
@@ -396,7 +396,7 @@ python3 -m unittest discover -s tests
 Run:
 
 ```bash
-rg -n "OPENAI_API_KEY=.*[^[:space:]]|sk-[A-Za-z0-9]|BEGIN .*PRIVATE KEY" env configs
+rg -n "${AI_AGENT_LAB_SECRET_SCAN_PATTERN}" env configs
 rg -n "TB[D]|TO[D]O|待[定]|占[位]" env configs
 ```
 
@@ -805,7 +805,7 @@ Expected: exit code 0 and output includes `cases=2 failed=0`.
 Run:
 
 ```bash
-rg -n "OPENAI_API_KEY=.*[^[:space:]]|sk-[A-Za-z0-9]|BEGIN .*PRIVATE KEY" .
+rg -n "${AI_AGENT_LAB_SECRET_SCAN_PATTERN}" .
 ```
 
 Expected: exit code 1 with no matches.

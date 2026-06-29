@@ -1,6 +1,6 @@
 # Personal AI Lab 学习与实践设计
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan one task at a time. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** 为具备算法工程背景、已使用 Codex CLI 一段时间的学习者，设计一条从 Codex 深度使用出发、逐步成长为 AI Agent 工程师的 6 个月学习与实践路线，并能在本地 Linux、3060 服务器与阿里云之间迁移和同步。
 
