@@ -1,5 +1,5 @@
 # Knowledge Index
 
-Store indexes, tags, source maps, and retrieval notes here.
+这里保存索引、标签、来源映射和检索说明。
 
-The index should help future Codex, MCP, or RAG workflows find the right material quickly.
+这个 index 应该帮助未来的 Codex、MCP 或 RAG 工作流快速找到合适材料。

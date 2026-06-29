@@ -1,23 +1,23 @@
-# Experiment Template
+# 实验模板
 
-Copy this folder when starting a new experiment.
+开始新实验时，复制这个目录。
 
-## Question
+## 问题
 
-State the exact question being tested.
+写清楚本次实验要验证的具体问题。
 
-## Setup
+## 设置
 
-- Machine:
-- Date:
-- Commit:
-- Inputs:
-- Command:
+- 机器：
+- 日期：
+- 提交：
+- 输入：
+- 命令：
 
-## Result
+## 结果
 
-Record the observed output, report path, latency, cost if available, and failure notes.
+记录观察到的输出、报告路径、延迟、可获得的成本信息，以及失败说明。
 
-## Conclusion
+## 结论
 
-Summarize what changed, what did not change, and whether the result is reproducible.
+总结发生了什么变化、什么没有变化，以及结果是否可复现。

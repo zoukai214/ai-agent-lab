@@ -1,5 +1,5 @@
 # Knowledge Inbox
 
-Store raw links, notes, and source references here before processing.
+这里保存尚未处理的原始链接、笔记和来源引用。
 
-Do not store private documents, secrets, large PDFs, or licensed datasets in Git.
+不要把私人文档、secrets、大型 PDF 或授权受限的数据集提交到 Git。

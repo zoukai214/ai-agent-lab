@@ -1,5 +1,5 @@
 # Processed Knowledge
 
-Store cleaned notes, summaries, and Feynman-style explanations here.
+这里保存清理后的笔记、摘要和费曼式解释。
 
-Each processed note should link back to its source and include a short conclusion in your own words.
+每条 processed note 都应该链接回来源，并包含一段用自己语言写的简短结论。
