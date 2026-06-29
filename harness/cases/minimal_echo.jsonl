@@ -1,0 +1,2 @@
+{"id": "echo-001", "input": "Codex can use a harness.", "expected": "Codex can use a harness."}
+{"id": "echo-002", "input": "Stage 0 checks reproducibility.", "expected": "Stage 0 checks reproducibility."}
