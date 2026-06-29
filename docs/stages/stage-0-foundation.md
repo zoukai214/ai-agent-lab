@@ -23,3 +23,17 @@ python3 harness/runners/run_echo.py \
 ```
 
 Passing Stage 0 means these commands work on at least one Linux machine and the machine notes explain what must be checked on the next machine.
+
+## Completion Log
+
+Record after implementation:
+
+```text
+Date: 2026-06-29
+Commit: 26c9709
+Machine: zoukai-Default-string
+Environment check: PASS - bash scripts/check/check_environment.sh
+Unit tests: PASS - python3 -m unittest discover -s tests -v, 4 tests
+Minimal harness: PASS - cases=2 failed=0
+Notes: Secret scan and placeholder scan returned no matches.
+```
