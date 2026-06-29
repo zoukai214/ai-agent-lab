@@ -1,27 +1,27 @@
-# ai-agent-lab Agent Rules
+# ai-agent-lab Agent 规则
 
-## Project Purpose
+## 项目用途
 
-This repository is a personal AI Agent engineering lab. It stores learning plans, notes, experiments, harnesses, configs, and stage projects for becoming an AI Agent engineer.
+这个仓库是个人 AI Agent 工程实验室。它保存学习计划、笔记、实验、harness、配置和阶段项目，用来系统学习并实践 AI Agent 工程。
 
-## Working Rules
+## 工作规则
 
-- Use Chinese comments in code when comments are needed.
-- Do not commit secrets, tokens, private keys, model weights, or large datasets.
-- Do not modify build options such as `CMakeLists.txt` unless explicitly requested.
-- New executable behavior needs a focused test.
-- Prefer Python 3 standard library and Bash for Stage 0 infrastructure.
-- Keep learning notes in `docs/`, experiments in `experiments/`, reusable evaluation code in `harness/`, and stage projects in `projects/`.
+- 需要注释时，代码注释使用中文。
+- 不要提交 secrets、tokens、private keys、model weights 或大型数据集。
+- 不要修改 `CMakeLists.txt` 等构建选项，除非用户明确要求。
+- 新增可执行行为时，必须有聚焦的测试。
+- Stage 0 基础设施优先使用 Python 3 标准库和 Bash。
+- 学习笔记放在 `docs/`，实验放在 `experiments/`，可复用评估代码放在 `harness/`，阶段项目放在 `projects/`。
 
-## Validation
+## 验证
 
-Before considering a change complete, run:
+在认为改动完成之前，运行：
 
 ```bash
 python3 -m unittest discover -s tests
 ```
 
-For environment changes, also run:
+如果改动涉及环境相关内容，也运行：
 
 ```bash
 bash scripts/check/check_environment.sh

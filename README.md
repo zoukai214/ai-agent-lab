@@ -1,17 +1,17 @@
 # ai-agent-lab
 
-Personal AI engineering lab for learning Codex deeply, building AI agents, managing knowledge systems, evaluating workflows, and migrating the same setup across local Linux, GPU server, and Aliyun.
+个人 AI 工程实验室，用来深入学习 Codex、构建 AI Agent、管理知识系统、评估工作流，并把同一套环境迁移到本地 Linux、GPU 服务器和阿里云。
 
-## Current Stage
+## 当前阶段
 
-Stage 0 builds the foundation:
+Stage 0 用来打基础：
 
-- Repository structure for learning notes, experiments, harnesses, configs, and knowledge.
-- Minimal environment check for Linux machines.
-- Minimal harness that can run one reproducible case and produce a report.
-- Templates for future stage experiments and Feynman-style reviews.
+- 建立学习笔记、实验、harness、配置和知识库的仓库结构。
+- 提供 Linux 机器上的最小环境检查。
+- 提供一个可复现的最小 harness，可以运行测试用例并生成报告。
+- 提供后续阶段实验记录和费曼式复盘模板。
 
-## Quick Start
+## 快速开始
 
 ```bash
 bash scripts/check/check_environment.sh
@@ -21,21 +21,21 @@ python3 harness/runners/run_echo.py \
   --report harness/reports/minimal_echo_report.md
 ```
 
-## Repository Map
+## 仓库地图
 
-- `docs/`: roadmap, stage notes, learning notes, references, reviews, and Superpowers specs/plans.
-- `env/`: environment templates and machine-specific migration notes.
-- `configs/`: Codex, MCP, agent, and model configuration examples.
-- `scripts/`: setup, sync, check, and run scripts.
-- `harness/`: reusable evaluation cases, runners, metrics, and reports.
-- `experiments/`: small tests and comparison experiments.
-- `projects/`: stage projects that can later become standalone systems.
-- `knowledge/`: personal knowledge base inbox, processed notes, and indexes.
-- `tests/`: tests for scripts, harnesses, and projects.
+- `docs/`：路线图、阶段说明、学习笔记、参考资料、复盘，以及 Superpowers 规格和计划。
+- `env/`：环境变量模板和不同机器的迁移记录。
+- `configs/`：Codex、MCP、Agent 和模型配置示例。
+- `scripts/`：安装、同步、检查和运行脚本。
+- `harness/`：可复用的评估用例、runner、指标和报告。
+- `experiments/`：小实验和对比实验。
+- `projects/`：阶段项目，后续可以拆成独立系统。
+- `knowledge/`：个人知识库的 inbox、processed notes 和 indexes。
+- `tests/`：脚本、harness 和项目测试。
 
-## Rules
+## 规则
 
-- Keep secrets, tokens, private keys, model weights, and large datasets out of Git.
-- Every experiment must include inputs, run commands, outputs, and a short conclusion.
-- Every new feature must include a focused test.
-- Prefer portable Python 3 and shell scripts until a stage requires heavier tooling.
+- 不要把 secrets、tokens、private keys、model weights 或大型数据集提交到 Git。
+- 每个实验都要记录输入、运行命令、输出和简短结论。
+- 每个新功能都要有聚焦的测试。
+- 在阶段确实需要重型工具之前，优先使用可移植的 Python 3 和 shell 脚本。
