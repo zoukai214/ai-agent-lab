@@ -1,18 +1,18 @@
 # Machine: local-linux
 
-## Purpose
+## 用途
 
-Daily learning, note writing, small experiments, and repository maintenance.
+日常学习、写笔记、小实验和仓库维护。
 
-## Checks
+## 检查命令
 
 ```bash
 bash scripts/check/check_environment.sh
 python3 -m unittest discover -s tests
 ```
 
-## Notes
+## 记录事项
 
-- Record OS version with `lsb_release -a` or `cat /etc/os-release`.
-- Record Python version with `python3 --version`.
-- Record Git version with `git --version`.
+- 用 `lsb_release -a` 或 `cat /etc/os-release` 记录 OS 版本。
+- 用 `python3 --version` 记录 Python 版本。
+- 用 `git --version` 记录 Git 版本。

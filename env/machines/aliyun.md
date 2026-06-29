@@ -1,18 +1,18 @@
 # Machine: aliyun
 
-## Purpose
+## 用途
 
-Cloud migration checks, deployment experiments, and network comparison tests.
+云端迁移检查、部署实验和网络对比测试。
 
-## Checks
+## 检查命令
 
 ```bash
 bash scripts/check/check_environment.sh
 python3 -m unittest discover -s tests
 ```
 
-## Notes
+## 记录事项
 
-- Record instance type, region, OS image, disk size, and network constraints.
-- Keep cloud credentials outside Git.
-- Compare command outputs with `local-linux` before changing scripts.
+- 记录实例规格、region、OS image、disk size 和网络限制。
+- 云账号凭据必须放在 Git 之外。
+- 改脚本之前，先和 `local-linux` 的命令输出做对比。

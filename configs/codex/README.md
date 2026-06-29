@@ -1,17 +1,17 @@
-# Codex Configuration Notes
+# Codex 配置说明
 
-This folder stores examples and conventions for Codex usage in this repository.
+这个目录保存本仓库使用 Codex 的示例和约定。
 
-## Boundaries
+## 边界
 
-- Repo-wide agent rules live in root `AGENTS.md`.
-- Reusable workflows should become Skills only after they are repeated and validated.
-- Prompt experiments belong in `experiments/stage-1/`.
-- Secrets and personal account settings do not belong in this repository.
+- 仓库级 Agent 规则放在根目录 `AGENTS.md`。
+- 可复用工作流只有在多次重复并验证后，才整理成 Skill。
+- prompt 实验放在 `experiments/stage-1/`。
+- secrets 和个人账号配置不属于这个仓库。
 
-## Stage 0 Validation
+## Stage 0 验证
 
-Use Codex to run a repo check, then compare the result with manual command output:
+使用 Codex 运行一次仓库检查，然后和手动命令输出做对比：
 
 ```bash
 bash scripts/check/check_environment.sh
